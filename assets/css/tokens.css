@@ -1,0 +1,80 @@
+/* uphair.shop — Design tokens */
+
+:root {
+  /* ── Palette ─────────────────────────────────────────── */
+  --color-bg: #F4ECE2;            /* warm cream */
+  --color-bg-soft: #EFE5D8;       /* sand mist */
+  --color-surface: #FAF5EE;       /* near-white card */
+  --color-ink: #2B1810;           /* deep cocoa text */
+  --color-ink-soft: #5B463A;      /* secondary text */
+  --color-ink-mute: #8C7768;      /* muted/captions */
+  --color-line: #E1D2BD;          /* hairline */
+  --color-line-soft: #EADBC5;
+  --color-accent: #B8956A;        /* champagne gold */
+  --color-accent-deep: #8E6E48;   /* burnished gold */
+  --color-burgundy: #6B2D2D;      /* vintage burgundy */
+  --color-cream: #FFF8EE;
+  --color-sand: #E8D5C0;
+  --color-success: #4B6A4F;
+
+  /* ── Typography ─────────────────────────────────────── */
+  --font-display: "Fraunces", "Cormorant Garamond", Georgia, serif;
+  --font-body: "Inter", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", Menlo, monospace;
+
+  --fs-eyebrow: 0.72rem;
+  --fs-body-sm: 0.85rem;
+  --fs-body: 1rem;
+  --fs-body-lg: 1.125rem;
+  --fs-h6: 1.1rem;
+  --fs-h5: 1.35rem;
+  --fs-h4: 1.6rem;
+  --fs-h3: clamp(1.8rem, 2.4vw, 2.4rem);
+  --fs-h2: clamp(2.2rem, 4vw, 3.4rem);
+  --fs-h1: clamp(2.8rem, 6vw, 5.2rem);
+  --fs-display: clamp(3.4rem, 8vw, 7rem);
+
+  --lh-tight: 1.05;
+  --lh-snug: 1.18;
+  --lh-normal: 1.5;
+  --lh-loose: 1.7;
+
+  --tracking-tight: -0.02em;
+  --tracking-base: -0.005em;
+  --tracking-wide: 0.14em;
+  --tracking-wider: 0.22em;
+
+  /* ── Layout ─────────────────────────────────────────── */
+  --container-max: 1280px;
+  --container-px: clamp(20px, 4vw, 56px);
+  --section-py: clamp(80px, 10vw, 140px);
+  --section-py-sm: clamp(56px, 7vw, 96px);
+
+  /* ── Radii ──────────────────────────────────────────── */
+  --r-xs: 4px;
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 24px;
+  --r-xl: 40px;
+  --r-pill: 999px;
+
+  /* ── Shadows ────────────────────────────────────────── */
+  --shadow-xs: 0 1px 2px rgba(43, 24, 16, 0.05);
+  --shadow-sm: 0 4px 16px rgba(43, 24, 16, 0.06);
+  --shadow-md: 0 12px 30px rgba(43, 24, 16, 0.08);
+  --shadow-lg: 0 30px 60px -20px rgba(43, 24, 16, 0.18);
+  --shadow-glow: 0 0 80px rgba(184, 149, 106, 0.35);
+
+  /* ── Motion ─────────────────────────────────────────── */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --t-fast: 180ms;
+  --t-base: 320ms;
+  --t-slow: 600ms;
+
+  /* ── Z-index ────────────────────────────────────────── */
+  --z-header: 100;
+  --z-sticky-cart: 90;
+  --z-overlay: 200;
+  --z-modal: 300;
+}
